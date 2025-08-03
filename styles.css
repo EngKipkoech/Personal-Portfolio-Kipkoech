@@ -1,0 +1,102 @@
+/* Base styling for dark mode */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container to center and space the layout */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* Header / Profile section */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00bcd4;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.subtitle {
+    color: #90caf9;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact {
+    font-size: 14px;
+    color: #b0bec5;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #00bcd4;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* List items */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Skills as pill-style tags */
+.skills span {
+    display: inline-block;
+    background-color: #263238;
+    color: #00bcd4;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+}
